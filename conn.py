@@ -1,5 +1,12 @@
 import pandas as pd
 from sqlalchemy import create_engine
+import datetime
+
+
+print(datetime.datetime.now().date())
+
+
+
 
 def fq():
     fq=create_engine('mysql+pymysql://otter:otter@123@10.253.169.47/fqmall_ht_prod?charset=utf8')
